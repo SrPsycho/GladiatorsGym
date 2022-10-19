@@ -1,0 +1,52 @@
+/* Actividades*/
+.actividades{
+    padding: 2rem;
+    height: 90vh;
+    background:url(/assets/images/prensa.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.actividades__titulo{
+    font-family: var(--titulos);
+    color: var(--blanco);
+    font-size: 5rem;
+    text-align: center;
+    width: 100%;
+    text-shadow: 4px 4px 2px rgba(162,32,32,0.6);
+}
+/* Responsive */
+
+.actividades__responsive{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    padding-top: 125px;
+}
+.act__resp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid var(--beige);
+    border-radius: 15px;
+    background: var(--blanco);
+    width: 22%;
+}
+.img__responsive{
+    width: 400px;
+    border-radius: 15px 15px 0px 0px;
+}
+.tit_responsive{
+    font-size: 1.2rem;
+    font-family: var(--titulos);
+    color: var(--carmesi);
+    text-align: center;
+}
+.descripcion__responsive{
+    color: var(--negro);
+    font-family: var(--subtitulos);
+    padding: 5px;
+}

@@ -1,0 +1,87 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One&family=Chivo&family=Cinzel+Decorative&family=Cinzel:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/animaciones.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <title>Gladiators Gym</title>
+</head>
+<body>
+    <header>
+        <img src="/assets/logos/Logo.png" alt="logo" class="logo">
+        <nav class="menu">
+            <ul class="menu__padre">
+                <li class="menu__hijo"><a href="/index.html" class="menu__hijo">Home</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <section class="formulario">
+     <body>
+        <div class="main-block">
+            <h1>Registro</h1>
+            <form action="/">
+              <hr>
+              <div class="account-type">
+                <input type="radio" value="none" id="radioOne" name="account" checked/>
+                <label for="radioOne" class="radio">Personal</label>
+                <input type="radio" value="none" id="radioTwo" name="account" />
+                <label for="radioTwo" class="radio">Particular</label>
+              </div>
+              <hr>
+              <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
+              <input type="text" name="name" id="name" placeholder="Email" required/>
+              <label id="icon" for="name"><i class="fas fa-user"></i></label>
+              <input type="text" name="name" id="name" placeholder="Nombre" required/>
+              <label id="icon" for="name"><i class="fas fa-unlock-alt"></i></label>
+              <input type="password" name="name" id="name" placeholder="Contraseña" required/>
+              <hr>
+              <div class="gender">
+                <input type="radio" value="none" id="male" name="gender" checked/>
+                <label for="male" class="radio">Hombre</label>
+                <input type="radio" value="none" id="female" name="gender" />
+                <label for="female" class="radio">Mujer</label>
+                <input type="radio" value="none" id="female" name="gender" />
+                <label for="female" class="radio">Otro</label>
+              </div>
+              <hr>
+              <div class="btn-block">
+                <p>Al registrarte aceptas nuestas <a href="https://www.youtube.com/watch?v=KnHmoA6Op1o">Politicas de privacidad</a>.</p>
+                <button type="submit" href="/index.html">Registrarse</button>
+              </div>
+            </form>
+          </div>
+        </body>
+    </section>
+
+    <footer>
+        <div class="contenedor__footer">
+            <img src="/assets/logos/Logo.png" alt="logo" class="logo">
+            <div class="redes">
+                  <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <path d="M17.5 6.5h.01"></path>
+                  </svg>
+                  <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                  </svg>
+                  <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                    <path d="m9.75 15.02 5.75-3.27-5.75-3.27v6.54z"></path>
+                  </svg>
+            </div>
+        </div>
+        
+        &copy;Matias Hausen - 2022
+    </footer>
+</body>
+</html>

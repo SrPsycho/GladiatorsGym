@@ -1,0 +1,77 @@
+/* Planes */
+.planes__contendedor{
+    background-image: url(/assets/images/barra.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0 100px 0;
+}
+.planes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0 100px 0;
+}
+.plan{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid var(--carmesi);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.plan__titulo{
+    font-family: var(--titulos);
+    color: var(--carmesi);
+    font-size: 3rem;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+}
+
+.plan__precio{
+    font-family: var(--numeros);
+    font-size: 2rem;
+}
+.plan__beneficios{
+    padding: 25px;
+    font-family: var(--subtitulos);
+    line-height: 25px;
+}
+.btn__plan{
+    border: none;
+    color: var(--blanco);
+    background-color: var(--carmesi);
+    height: 35px;
+    width: 100%;
+    border-radius: 15px;
+    font-family: var(--subtitulos);
+}
+.btn__plan:hover{
+    cursor: pointer;
+    color: var(--beige);
+    transform: scale(1.05);
+    transition-duration: 400ms;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.plan__img{
+    width: 200px;
+    height: 100px;
+    
+}
+
+.bronce{
+    color: var(--beige);
+   
+}
+
+.plata{
+    color: silver;
+
+}
+.Oro{
+    color: gold;
+}

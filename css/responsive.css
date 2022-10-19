@@ -1,0 +1,86 @@
+@media (max-width:997px) {
+    header{
+        height: 100px;
+    }
+    .logo{
+        height: 100px;
+    }
+    .menu{
+        display: none;
+    }
+    .imagen__principal{
+        height: 100vh;
+        gap: 30px;
+    }
+    .titulo__principal{
+        font-size: 2.5rem;
+    }
+ 
+    .inspiracion__contenedor{
+        font-size: 4.5rem;
+        flex-direction: column;
+    }
+    .inspiracion{
+        width: 100%;
+        background-position-x:5px;
+    }
+
+    /* Actividades */
+    .actividades{
+        height: 200vh;
+    }
+    .actividades__responsive{
+        flex-direction: column;
+        padding-top: 25px;
+    }
+    .act__resp{
+        display: block;
+        width: 90%;
+    }
+    .actividades__titulo{
+        font-size: 2rem;
+    }
+    .img__responsive{
+        width: 100%;
+        border-radius: 15px 15px 0px 0px;
+    }
+    /* Responsive */
+  
+
+    /* Planes */
+    .planes{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .plan{
+        padding: 5px;
+        box-shadow: none;
+        width: 85%;
+    }
+    .plan__titulo{
+        font-size: 2rem;
+    }
+    .plan__img{
+        width: 100px;
+        width: auto;
+    }
+    /* nosotros */
+    .titulo__nosotros{
+        font-size: 2rem;
+    }
+    .nosotros{
+        flex-direction: column;
+    }
+    .descripcion__nosotros{
+        width: 90%;
+    }
+    iframe{
+        padding-top: 25px;
+        width: 300;
+        height: 300;
+    }
+    /* Footer */
+    .contenedor__footer{
+        flex-direction: column;
+    }
+}

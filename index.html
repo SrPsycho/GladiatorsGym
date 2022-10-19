@@ -1,0 +1,173 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One&family=Chivo&family=Cinzel+Decorative&family=Cinzel:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/actividades.css">
+    <link rel="stylesheet" href="/css/planes.css">
+    <link rel="stylesheet" href="/css/nosotros.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/animaciones.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <title>Gladiators Gym</title>
+</head>
+<body>
+    <header>
+        <img src="/assets/logos/Logo.png" alt="logo" class="logo">
+        <nav class="menu">
+            <ul class="menu__padre">
+                <li class="menu__hijo"><a href="#actividades" class="menu__hijo">Actividades</a></li>
+                <li class="menu__hijo"><a href="#planes" class="menu__hijo">Planes</a></li>
+                <li class="menu__hijo"><a href="#nosotros" class="menu__hijo">Nosotros</a></li>
+            </ul>
+        </nav>
+        <!-- <button class="responsive" id="menu"><img src="/assets/icons/menu.svg" class="responsiveImg"></button>
+        <nav class="responsive__menu " id="menu__responsive">
+            <ul class="menu__padre_responsive">
+                <li class="menu__hijo"><a href="#actividades" class="menu__hijo">Actividades</a></li>
+                <li class="menu__hijo"><a href="#planes" class="menu__hijo">Planes</a></li>
+                <li class="menu__hijo"><a href="#nosotros" class="menu__hijo">Nosotros</a></li>
+            </ul>
+        </nav> -->
+    </header>
+    <section class="imagen__principal">
+        <div class="info__principal">
+            <h2 class="titulo__principal">Unete a nuestra familia</h2>
+            <div class="slider__principal"></div>
+        </div>
+        <a href="#planes"><input type="button" value="Ver los planes" class="btn__principal"></a>
+        
+    </section>
+
+    <section class="inspiracion__contenedor">
+        <h2 class="inspiracion">TU MEJOR VERSION SIEMPRE AL ALCANCE</h2>
+        <a href="#nosotros"><input type="button" value="Conocenos" class="btn__inspiracion"></a>
+    </section>
+
+    <section class="actividades" id="actividades">
+        <h2 class="actividades__titulo">Nuestros puntos fuertes</h2>
+      <section class="actividades__responsive">
+            <div class="act__resp">
+                <img src="/assets/images/musculacion.jpg" class="img__responsive musc">
+                <h2 class="tit_responsive">Musculacion</h2>
+                <p class="descripcion__responsive">
+                    la musculación es uno de los recursos más utilizados por todo tipo de personas ya sea para mejorar su físico,
+                    ganar masa muscular, perder peso o simplemente como complemento para todo tipo de deportes.
+                </p>
+            </div>
+            <div class="act__resp">
+                <img src="/assets/images/yoga/pexels-elina-fairytale-3823039.jpg" class="img__responsive yoga">
+                <h2 class="tit_responsive">Yoga</h2>
+                <p class="descripcion__responsive">El yoga es una práctica que conecta el cuerpo, la respiración y la mente.
+                    Esta práctica utiliza posturas físicas, ejercicios de respiración y meditación para mejorar la salud general.
+                    El yoga se desarrolló como una práctica espiritual hace miles de años.</p>
+            </div>
+            <div class="act__resp">
+                <img src="/assets/images/zumba/pexels-andrea-piacquadio-3775566.jpg" class="img__responsive zumba">
+                <h2 class="tit_responsive">Zumba</h2>
+                <p class="descripcion__responsive">
+                    La clase que comenzó como una revolución de baile con música y cambió la forma de ver el 
+                        ejercicio por siempre. 
+                        Es divertida, efectiva y ¿lo mejor de todo? ¡Está hecha para todo el mundo!
+                </p>
+            </div>
+      </section>
+    </section>
+
+    <section class="planes__contendedor" id="planes">
+        <h2 class="titulo__principal">Listo para comenzar?</h2>
+        <div class="planes">
+            <div class="plan">
+                <img src="/assets/icons/mancuerna1.png" class="plan__img bronce">
+                <h2 class="plan__titulo bronce">Bronce</h2>
+                <p class="plan__precio">$1500</p>
+                <ol class="plan__beneficios">
+                    <li>Acceso a +200 gyms</li>
+                    <li>Elegí la actividad que mas te guste</li>
+                    <li>Acceso a la app</li>
+                </ol>
+                <a href="/form.html"><input type="button" value="Quiero este!" class="btn__plan"></a>
+                
+            </div>
+            <div class="plan">
+                <img src="/assets/icons/Mancuerna2.png" class="plan__img plata">
+                <h2 class="plan__titulo plata">Plata</h2>
+                <p class="plan__precio">$2000</p>
+                <ol class="plan__beneficios">
+                    <li>Acceso libre a todos las actividades</li>
+                    <li>Nutricionista</li>
+                    <li>Acceso a la app</li>
+                </ol>
+                <a href="/form.html"><input type="button" value="Quiero este!" class="btn__plan"></a>
+            </div>
+            <div class="plan">
+                <img src="/assets/icons/Mancuerna3.png" class="plan__img Oro">
+                <h2 class="plan__titulo Oro">Oro</h2>
+                <p class="plan__precio">$2500</p>
+                <ol class="plan__beneficios">
+                    <li>Acceso a +200 gyms</li>
+                    <li>Elegí la actividad que mas te guste</li>
+                    <li>Muchos beneficios mas!</li>
+                </ol>
+                <a href="/form.html"><input type="button" value="Quiero este!" class="btn__plan"></a>
+            </div>
+        </div>
+     
+    </section>
+
+    <section class="nosotros__contenedor" id="nosotros">
+        <h2 class="titulo__nosotros">Nosotros</h2>
+        <div class="nosotros">
+            <p class="descripcion__nosotros">
+                Con mas de 20 años de experiencia, somos uno de los mejores y mas grandes gimnasios del pais.
+                Contamos con mas de 200 sedes a lo largo de la region y ponemos a tu disposicion todo para
+                que puedas lograr todo lo que te propones, nuestro esquipo esta sumamente capacitado para 
+                ayudarte y acompañarte en esta gran decision! 
+                <br>
+                Trabajá la fuerza y resistencia, desarrollando todos los grupos musculares. Prevení lesiones y mejorá tu 
+                calidad de vida. Contamos con +200 gimnasios equipados con la última tecnología.
+                <br>
+                Respirá, relajá tu mente y mejorá tu movilidad articular. Pilates, yoga, stretching y 
+                muchas actividades más, orientadas a encontrar tu bienestar integral.
+                <br>
+                +100 disciplinas orientadas al acondicionamiento físico. GAP, Localizada, Ritmos, SportCycle, 
+                SportFunctional, taller de abdominales y más, te están esperando.
+                <br>
+                Mantenerte activo es sinónimo de salud, ya no hay excusas. Cientos de actividades
+                 para estimular tu cuerpo y ralentizar el paso de la edad.
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4035.065831686814!2d-106.70261216860864!3d44.3464820309497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53357941e0009f95%3A0xe3d9c63e11ba09bc!2sThe%20Om%20Nest!5e0!3m2!1ses-419!2sar!4v1666135286472!5m2!1ses-419!2sar" 
+            width="600" height="450" style="border:0;" allowfullscreen="" 
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            class="mapa"></iframe>
+        </div>
+        
+    </section>
+    <footer>
+        <div class="contenedor__footer">
+            <img src="/assets/logos/Logo.png" alt="logo" class="logo">
+            <div class="redes">
+                  <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <path d="M17.5 6.5h.01"></path>
+                  </svg>
+                  <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                  </svg>
+                  <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                    <path d="m9.75 15.02 5.75-3.27-5.75-3.27v6.54z"></path>
+                  </svg>
+            </div>
+        </div>
+        
+        &copy;Matias Hausen - 2022
+    </footer>
+</body>
+</html>
